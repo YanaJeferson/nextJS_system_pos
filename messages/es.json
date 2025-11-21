@@ -26,6 +26,26 @@
     "showPassword": "Mostrar contraseña",
     "hidePassword": "Ocultar contraseña"
   },
+  "forgot": {
+    "title": "Restablecer contraseña",
+    "description": "Ingresa tu email para recibir el enlace de restablecimiento.",
+    "email": "Email",
+    "send": "Enviar enlace",
+    "loading": "Enviando...",
+    "success": "Si el email existe, se enviará un enlace de restablecimiento.",
+    "error": "Error al enviar el enlace"
+  },
+  "reset": {
+    "title": "Nueva contraseña",
+    "description": "Ingresa tu nueva contraseña para completar el proceso.",
+    "password": "Contraseña",
+    "confirm": "Confirmar contraseña",
+    "update": "Actualizar contraseña",
+    "loading": "Actualizando...",
+    "success": "Tu contraseña ha sido actualizada.",
+    "error": "Error al actualizar",
+    "mismatch": "Las contraseñas no coinciden"
+  },
   "register": {
     "title": "Crear cuenta",
     "name": "Nombre",

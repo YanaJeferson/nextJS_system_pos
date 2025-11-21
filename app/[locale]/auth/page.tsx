@@ -97,10 +97,7 @@ export default function AuthPage() {
           )}
 
           <div className="mt-5 space-y-5 w-full">
-            <Link
-              href="#"
-              className="text-sm block underline text-muted-foreground text-center"
-            >
+            <Link href={`/${locale}/forgot-password`} className="text-sm block underline text-muted-foreground text-center">
               {t("forgot")}
             </Link>
             <p className="text-sm text-center">

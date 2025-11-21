@@ -26,6 +26,26 @@
     "showPassword": "Show password",
     "hidePassword": "Hide password"
   },
+  "forgot": {
+    "title": "Reset password",
+    "description": "Enter your email to receive the reset link.",
+    "email": "Email",
+    "send": "Send link",
+    "loading": "Sending...",
+    "success": "If the email exists, a reset link will be sent.",
+    "error": "Error sending the link"
+  },
+  "reset": {
+    "title": "New password",
+    "description": "Enter your new password to complete the process.",
+    "password": "Password",
+    "confirm": "Confirm password",
+    "update": "Update password",
+    "loading": "Updating...",
+    "success": "Your password has been updated.",
+    "error": "Error updating",
+    "mismatch": "Passwords do not match"
+  },
   "register": {
     "title": "Create account",
     "name": "Name",
