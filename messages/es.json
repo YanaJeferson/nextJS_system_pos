@@ -1,0 +1,29 @@
+{
+  "common": {
+    "appTitle": "Sistema POS",
+    "logout": "Salir"
+  },
+  "menu": {
+    "sales": "Ventas",
+    "products": "Productos",
+    "inventory": "Inventario",
+    "customers": "Clientes",
+    "suppliers": "Proveedores",
+    "employees": "Empleados",
+    "reports": "Reportes",
+    "settings": "Configuración"
+  },
+  "auth": {
+    "title": "Iniciar sesión",
+    "email": "Email",
+    "password": "Contraseña",
+    "login": "Iniciar sesión"
+  },
+  "register": {
+    "title": "Crear cuenta",
+    "name": "Nombre",
+    "email": "Email",
+    "password": "Contraseña",
+    "create": "Crear cuenta"
+  }
+}

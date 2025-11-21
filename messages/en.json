@@ -1,0 +1,29 @@
+{
+  "common": {
+    "appTitle": "POS System",
+    "logout": "Logout"
+  },
+  "menu": {
+    "sales": "Sales",
+    "products": "Products",
+    "inventory": "Inventory",
+    "customers": "Customers",
+    "suppliers": "Suppliers",
+    "employees": "Employees",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "auth": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "login": "Sign in"
+  },
+  "register": {
+    "title": "Create account",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "create": "Create account"
+  }
+}
