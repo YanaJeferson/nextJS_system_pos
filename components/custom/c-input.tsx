@@ -4,30 +4,43 @@ import { Input as UIInput } from "@/components/ui/input";
 import { Label } from "../ui/label";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  label?: string; // texto del label
-  icon?: React.ReactNode; // icono opcional (sin incluir iconos en el código)
-  error?: FieldError; // error de react-hook-form
+  label?: string;
+  icon?: React.ReactNode;
+  error?: FieldError;
+  rightElement?: React.ReactNode;
 }
 
-export function CInput({ label, icon, error, ...rest }: InputProps) {
+export function CInput({
+  label,
+  icon,
+  error,
+  rightElement,
+  ...rest
+}: InputProps) {
+  const { className, ...inputProps } = rest;
+  const paddingRightClass = rightElement ? "pr-10" : "";
+  const paddingLeftClass = icon ? "pl-9" : "";
   return (
     <div className="flex flex-col gap-1 w-full">
-      {/* etiqueta del input */}
       {label && <Label>{label}</Label>}
-
-      <div
-        className={`flex items-center gap-2 border rounded px-3 py-2 ${
-          error ? "border-red-500" : "border-gray-300"
-        }`}
-      >
-        {/* icono opcional */}
-        {icon && <span>{icon}</span>}
-
-        {/* input principal */}
-        <UIInput className="flex-1 outline-none bg-transparent" {...rest} />
+      <div className="relative">
+        {icon && (
+          <span className="absolute left-2 top-1/2 -translate-y-1/2 text-muted-foreground">
+            {icon}
+          </span>
+        )}
+        <UIInput
+          {...inputProps}
+          className={`${
+            error ? "border-red-500" : ""
+          } ${paddingRightClass} ${paddingLeftClass} ${className ?? ""}`}
+        />
+        {rightElement && (
+          <span className="absolute right-2 top-1/2 -translate-y-1/2">
+            {rightElement}
+          </span>
+        )}
       </div>
-
-      {/* mensaje de error */}
       {error && <p className="text-red-500 text-xs">{error.message}</p>}
     </div>
   );

@@ -1,7 +1,8 @@
 {
   "common": {
     "appTitle": "POS System",
-    "logout": "Logout"
+    "logout": "Logout",
+    "required": "Required field"
   },
   "menu": {
     "sales": "Sales",
@@ -17,13 +18,22 @@
     "title": "Sign in",
     "email": "Email",
     "password": "Password",
-    "login": "Sign in"
+    "login": "Sign in",
+    "loading": "Signing in...",
+    "or": "or",
+    "forgot": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
   },
   "register": {
     "title": "Create account",
     "name": "Name",
     "email": "Email",
     "password": "Password",
-    "create": "Create account"
+    "create": "Create account",
+    "loading": "Creating account...",
+    "error": "Error registering",
+    "haveAccount": "Already have an account?"
   }
 }

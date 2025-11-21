@@ -1,7 +1,8 @@
 {
   "common": {
     "appTitle": "Sistema POS",
-    "logout": "Salir"
+    "logout": "Salir",
+    "required": "Campo requerido"
   },
   "menu": {
     "sales": "Ventas",
@@ -17,13 +18,22 @@
     "title": "Iniciar sesión",
     "email": "Email",
     "password": "Contraseña",
-    "login": "Iniciar sesión"
+    "login": "Iniciar sesión",
+    "loading": "Ingresando...",
+    "or": "o",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña"
   },
   "register": {
     "title": "Crear cuenta",
     "name": "Nombre",
     "email": "Email",
     "password": "Contraseña",
-    "create": "Crear cuenta"
+    "create": "Crear cuenta",
+    "loading": "Creando cuenta...",
+    "error": "Error al registrar",
+    "haveAccount": "¿Ya tienes una cuenta?"
   }
 }
